@@ -32,7 +32,7 @@ This project simulates a real-world enterprise SOC by combining:
 | **SIEM**                  | Splunk Enterprise (log ingestion, correlation, dashboards) |
 | **Endpoint Telemetry**    | Sysmon with SwiftOnSecurity config                         |
 | **Directory Services**    | Active Directory domain with multiple Windows servers      |
-| **Real Attack Traffic**   | 113,000+ brute force attempts captured live                |
+| **Real Attack Traffic**   | 200,000+ brute force attempts captured live                |
 | **Custom Detection Rule** | Brute Force attack alert built using SPL                   |
 
 **Duration:** 1 week
@@ -80,7 +80,7 @@ A live RDP brute force attack was identified using Splunk.
 
 | Metric              | Value                 |
 | ------------------- | --------------------- |
-| Total Failed Logins | **113,000+**          |
+| Total Failed Logins | **200,000+**          |
 | Attack Duration     | 24+ hours             |
 | Unique Attacker IPs | 10+                   |
 | Peak Attempts       | 3,300/hour            |
